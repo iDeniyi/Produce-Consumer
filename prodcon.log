@@ -1,0 +1,78 @@
+0.000	ID=	1			Ask
+0.000	ID=	2			Ask
+0.000	ID=	3			Ask
+0.000	ID=	5			Ask
+0.000	ID=	6			Ask
+0.000	ID=	7			Ask
+0.000	ID=	8			Ask
+0.000	ID=	4			Ask
+0.001	ID=	0	Q=	1	Work		5
+0.001	ID=	0	Q=	2	Work		6
+0.001	ID=	2	Q=	1	Receive		5
+0.001	ID=	0	Q=	2	Work		7
+0.001	ID=	0			Sleep		4
+0.042	ID=	0			Sleep		3
+0.074	ID=	0			Sleep		2
+0.099	ID=	0			Sleep		5
+0.152	ID=	0			Sleep		55
+0.706	ID=	0			Sleep		30
+1.009	ID=	2			Complete	5
+1.010	ID=	2			Ask
+1.010	ID=	3	Q=	1	Receive		6
+1.010	ID=	1	Q=	0	Receive		7
+1.020	ID=	0	Q=	1	Work		50
+1.020	ID=	0	Q=	2	Work		40
+1.020	ID=	0			Sleep		5000
+1.032	ID=	5	Q=	1	Receive		50
+1.033	ID=	3			Complete	6
+1.033	ID=	3			Ask
+1.033	ID=	3	Q=	0	Receive		40
+1.042	ID=	1			Complete	7
+1.042	ID=	1			Ask
+1.043	ID=	0	Q=	1	Work		400
+1.043	ID=	0			Sleep		5000
+1.055	ID=	0			Sleep		50000
+1.065	ID=	7	Q=	0	Receive		400
+1.065	ID=	0			Sleep		50000
+1.078	ID=	0	Q=	1	Work		5000
+1.078	ID=	0	Q=	2	Work		5000
+1.078	ID=	4	Q=	1	Receive		5000
+1.078	ID=	0	Q=	2	Work		5000
+1.078	ID=	0	Q=	3	Work		50000
+1.078	ID=	0	Q=	4	Work		50000
+1.078	ID=	0			End
+1.078	ID=	2	Q=	3	Receive		5000
+1.088	ID=	8	Q=	2	Receive		5000
+1.088	ID=	1	Q=	1	Receive		50000
+1.098	ID=	6	Q=	0	Receive		50000
+1.203	ID=	3			Complete	40
+1.203	ID=	3			Ask
+1.222	ID=	5			Complete	50
+1.222	ID=	5			Ask
+2.807	ID=	7			Complete	400
+2.807	ID=	7			Ask
+17.685	ID=	8			Complete	5000
+17.685	ID=	8			Ask
+17.722	ID=	2			Complete	5000
+17.722	ID=	2			Ask
+17.743	ID=	4			Complete	5000
+17.743	ID=	4			Ask
+20.342	ID=	1			Complete	50000
+20.342	ID=	1			Ask
+20.352	ID=	6			Complete	50000
+20.352	ID=	6			Ask
+Summary:
+	Work		11
+	Ask			19
+	Receive		11
+	Complete	11
+	Sleep		10
+	Thread	1	2
+	Thread	2	2
+	Thread	3	2
+	Thread	4	1
+	Thread	5	1
+	Thread	6	1
+	Thread	7	1
+	Thread	8	1
+Transactions per second:	0.540
